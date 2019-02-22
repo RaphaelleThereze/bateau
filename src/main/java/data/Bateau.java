@@ -26,7 +26,7 @@ public class Bateau {
 	@Override
 	public String toString() {
 
-		return "\\_______" + nom + "_______//";
+		return "\\___*__" + nom + "___*__//";
 
 	}
 	
