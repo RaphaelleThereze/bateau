@@ -30,7 +30,7 @@ public class BateauServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		Bateau bateau = new Bateau("Jolly Roger");
 		response.getWriter()
-		.append("Bateau de barbe noire : ")
+		.append("Bateau de Black Beard : ")
 		.append(bateau.toString());
 	}
 
